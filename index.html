@@ -1,0 +1,219 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+		<title> NArts </title>
+		<meta charset="UTF-8">
+		<meta name="Descrição" content ="Portfolio">
+		<meta name="palavras chave" content="Nicholas,SMD,Portfolio">
+		<meta name="Autor" content="Nicholas">
+		<link rel="stylesheet" type="text/css" href="narts.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+	</head>
+
+	<body>
+		<div id="navhome">
+		<nav>
+			<ul>
+				<li>
+					<button class="button"  onclick="cliquei(1)">home </button>
+
+				</li>
+
+				<li>
+					<button class="button" onclick="cliquei(2)">Trabalhos </button>
+
+				</li>
+
+				<li>
+					<button class="button" onclick="cliquei(3)">Sobre </button>
+				</li>
+
+				<li>
+					<button class="button" onclick="cliquei(4)">Contato </button>
+				</li>
+
+			</ul>
+		</nav>
+
+		<div id="home">
+
+			<div id="nicho">
+
+				 
+					NICHO
+				
+
+			</div>
+
+			<div id ="las">
+
+				 
+					LAS 
+				
+
+			</div>
+
+			<div id="trece">
+
+				 
+					TRECE
+				
+
+			</div>
+
+			<div id="linha">
+				<p>___________________
+
+				</p>
+			</div>
+
+		</div>
+
+		</div>
+
+		<div id="trabalhos">
+
+			<div id="tra">
+					<a 
+						id="Trabalhos">TRA
+					</a>	
+			</div>
+
+			<div id="balhos">
+
+					BALHOS
+
+			</div>
+			<div id="homemdeferro">
+				<img src="iron-man-pixel-art.PNG" alt="homemdeferro" width="400" />
+			</div>
+
+			<div id="maos">
+				<img src="maos.png" alt="trabalho desenho 1" width="400" height="300" />
+			</div>
+
+			<div id="viuva">
+				<img src="viuva-negra.jpg" alt="Viuva" width="400" />
+			</div>
+
+			<div id="ezio">
+				<img src="ezioauditore.png" alt="Ezio" width="300" height="300" />
+			</div>
+		</div>
+
+		<div id="sobre">
+			<h1>
+				<a 
+					id="sobre">SOBRE
+				</a>
+			</h1>	
+
+			<img src="nicholas1.jpg" alt="eu" width="300" height="300"  />
+
+			<div id="descriçãosobre">
+				<p>
+					Estudante de Sistemas e Mídias Digitais (SMD)</br> na Universidade Federal do Ceará (UFC) com aptidão na área de programação e afins.
+
+
+				</p>
+			</div>
+			
+		</div>
+
+		<div id="nomecontato">
+
+			<h1>
+
+				<a 
+					id="contato">CONTATO
+				</a>
+			</h1>	
+
+		</div>
+		<div id="form">
+			<form action="nicholastrece1@hotmail.com" method="post">
+    			<div class="formulario">
+        			<label for="name">Nome:</label></br>
+        			<input type="text" id="name" />
+    		</div>
+
+    			<div class="formulario">
+        			<label for="mail">E-mail:</label></br>
+        			<input type="email" id="mail" />
+    			</div>
+
+    			<div class="formulario">
+        			<label for="msg">Mensagem:</label></br>
+        			<textarea id="msg"></textarea>
+    			</div>
+
+    			<div class="button">
+        			<button type="submit">Enviar</button>
+    			</div>
+		</form>
+		</div>
+
+
+		<script type="text/javascript">
+
+			function cliquei(escolha)
+			{
+			 	if (escolha == 1) 
+			 		{
+					document.getElementById("home").style.display = "block";
+			 		document.getElementById("trabalhos").style.display = "block";
+					document.getElementById("contato").style.display = "block";
+					document.getElementById("sobre").style.display = "block";
+					document.getElementById("form").style.display = "block";
+					}
+					
+				else if (escolha == 2) 
+					{
+					
+					document.getElementById("trabalhos").style.display = "inline";
+					document.getElementById("home").style.display = "none";
+					document.getElementById("contato").style.display = "none";
+					document.getElementById("sobre").style.display = "none";
+					document.getElementById("form").style.display = "none";
+					}
+
+				else if (escolha ==3) 
+					{
+					document.getElementById("sobre").style.display = "inline";
+					document.getElementById("home").style.display = "none";
+					document.getElementById("contato").style.display = "none";
+					document.getElementById("trabalhos").style.display = "none";
+					document.getElementById("form").style.display = "none";
+
+					}
+				else if (escolha ==4) 
+					{
+					document.getElementById("contato").style.display = "inline";
+					document.getElementById("form").style.display = "inline";
+					document.getElementById("home").style.display = "none";
+					document.getElementById("sobre").style.display = "none";
+					document.getElementById("trabalhos").style.display = "none";
+					
+
+					}
+			}
+
+
+		</script>
+			
+			
+		
+
+
+		
+
+
+
+
+
+		<footer>NArts - Nicholas Trece</footer>
+
+	</body>
+
+</html>

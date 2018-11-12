@@ -1,0 +1,175 @@
+:root{
+	--CorPrincipal:#181E28 ;
+	--CordeTexto1:#737E9B ;
+	--CordeTexto2:#515153;
+	--Fonte: 'Roboto';
+
+}
+
+
+body{
+
+	background: var(--CorPrincipal);
+	margin-left:40px;
+	font-family: var(--Fonte);
+}
+#home{
+
+ margin-bottom: 500px;
+
+}
+
+#trabalhos{
+
+margin-bottom: 250px;
+}
+
+#contato{
+
+
+}
+
+#nicho{
+	position: relative;
+	top: 200px;
+	font-weight: bold;
+	font-size: 120px;
+
+	color: var(--CordeTexto1);
+	margin: 0;
+
+}
+
+
+#las {
+	position: relative;
+	top: 200px;
+	font-size: 80px;
+	font-weight: bold;
+	color: var(--CordeTexto1);
+	margin: 0;
+
+
+}
+
+#trece{
+	position: relative;
+	top: 200px;
+	font-size: 120px;
+	font-weight: normal;
+	color: var(--CordeTexto1);
+	margin
+
+}
+
+#tra{
+	position: relative;
+	top:30px;
+	font-size: 35px;
+	font-weight: bold;
+	color: var(--CordeTexto2);
+}
+
+#balhos{
+	position: relative;
+	top: 30px;
+	font-size: 35px;
+	font-weight: bold;
+	color: var(--CordeTexto2);
+}
+#descrição{
+	color: var(--CordeTexto1);
+}
+
+#nomecontato{
+	color: var(--CordeTexto2);
+
+}
+
+#sobre{
+	color: var(--CordeTexto2);
+	margin-bottom: 250px;
+}	
+
+.formulario{
+	color: var(--CordeTexto2);
+}
+#linha{
+	position: relative;
+	top: 200px;
+	bottom:30px;
+	margin-left:-50px;
+	color: var(--CordeTexto1);;
+}
+
+#homemdeferro{
+	float: left;
+	z-index: -1;
+	position: relative;
+	top: 5px;
+	left: 85px;
+
+}
+
+#maos{
+	position: relative;
+	left: 100px;
+	bottom: 35px;
+}
+#viuva{
+	float: left;
+	position: relative;
+	left: 85px;
+}
+
+#ezio{
+	position: relative;
+	left: 150px;
+
+}
+
+#descriçãosobre{
+	position: relative;
+	left: 305px;
+	bottom: 200px;
+	color: var(--CordeTexto1);
+}
+
+a:link {
+	color: var(--CordeTexto1);
+}
+
+a:visited{
+	color: var(--CordeTexto1);
+}
+
+nav ul{
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+}
+nav li{
+	display: inline-block;
+
+}
+footer{
+	display:flex;
+	justify-content: center;
+	color: var(--CordeTexto1);
+}
+.button{
+	background-color: var(--CorPrincipal);
+    border: none;
+    color: var(--CordeTexto1);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.7s;
+  }
+ .button:hover {
+    background-color: black;
+    color: white;
+}
